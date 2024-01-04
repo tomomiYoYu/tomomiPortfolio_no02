@@ -79,7 +79,6 @@ pageTop.addEventListener(
       pageTop.classList.remove("show");
     }, 1800);
     header.scrollIntoView(true, { behavior: "smooth" });
-    se;
   },
   false
 );
