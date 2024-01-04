@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="動きのあるWebサイトのポートフォリオです。">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<!-- <link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="icon.png"> -->
+
+<!-- Import Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+<!-- Import CSS -->
+<link rel="stylesheet" href="./css/style.css">
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+<!-- START Header Area -->
+<div class="c_breadcrumb" id="js_breadcrumb">
+    <span class="c_breadcrumb__line01"></span>
+    <span class="c_breadcrumb__line02"></span>
+</div>
+<header class="l_header" id="js_header">
+    <nav class="c_globalMenu --glowAnime">
+        <h2 class="c_globalMenu__title --glow">Beautiful Days</h2>
+        <ul class="c_globalMenu__list">
+            <li><a class="c_globalMenu__link" href="#">Top</a></li>
+            <li><a class="c_globalMenu__link" href="#">About</a></li>
+            <li><a class="c_globalMenu__link" href="#">Menu</a></li>
+            <li><a class="c_globalMenu__link" href="#">Contact</a></li>
+            <li><a class="c_globalMenu__link" href="#">Blog</a></li>
+        </ul>
+    </nav>  
+    <div class="c_hero">
+        <h1 class="c_hero__title --glowAnime">
+            <span class="c_hero__subText --glow">癒やしのエステサロン</span>
+            <div class="c_hero__mainText --glow">
+                <span class="c_hero__text01">Beautiful</span><span class="c_hero__text02">Days</span>
+        </div>
+        </h1>
+    </div>
+</header>
+<div id="c_doorLeft"></div>
+<div id="c_doorRight"></div>
+<!-- END Header Area -->
+
+<!-- START Main Area -->
+<main class="l_main">
+    <section class="l_about c_about" id="about">
+        <div class="c_about__inner">
+            <div class="c_about__textBox">
+                <h2 class="e_title02">癒しの<br>プライベート空間</h2>
+                <p class="c_about__text">エステサロン<br>ビューティフルデイズは、<br>あなたが<br>ちょっと疲れた時に<br>立ち寄れる   <br> ほっとする時間と空間を<br>ご用意いたします。</p>
+            </div>
+            <button class="e_btn --vertical"><a href="#">お店のご紹介</a></button>
+            </div>
+        </div>
+        <figure class="c_about__picture"></figure>
+    </section>
+    <section class="l_menu" id="menu">
+        <div class="l_menu__inner">
+            <h3 class="e_title03">
+                <span class='e_title03__menu'><span style="animation-delay: 0s">M</span></span>
+                <span class='e_title03__menu'><span style="animation-delay: 0.2s">e</span></span>
+                <span class='e_title03__menu'><span style="animation-delay: 0.4s">n</span></span>
+                <span class='e_title03__menu'><span style="animation-delay: 0.6s">u</span></span>
+                <span class='e_title03__menu'>
+            </h3>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <ul class="c_card">
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/01.jpg" alt="ネイル後の手の写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>ネイル</dt>
+                                    <dd>8,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/02.jpg" alt="香水のボトルの写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>調香</dt>
+                                    <dd>10,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/03.jpg" alt="結婚指輪をはめている女性の手の画像"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>ウェディングメニュー</dt>
+                                    <dd>12,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="c_card__item">    
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/04.jpg" alt="フェイシャルエステを受けている女性の写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>フェイシャル</dt>
+                                    <dd>5,000 yen～</dd>
+                                </dl>
+                        </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul class="c_card">
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/05.jpg" alt="メイクセットの写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>メイク / セット</dt>
+                                    <dd>3,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/06.jpg" alt="ボディートリートメントを受けている女性の背中の写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>ボディトリートメント</dt>
+                                    <dd>8,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/07.jpg" alt="タオルとアロマの写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>サウナ</dt>
+                                    <dd>3,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="c_card__item">
+                            <a class="c_card__link" href="#">
+                                <img class="c_card__picture" src="./img/08.jpg" alt="ネイルをしている手の写真"></img>
+                                <dl class="c_card__textBox">
+                                    <dt>各種スクール</dt>
+                                    <dd>月6,000 yen～</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <button class="e_btn"><a href="#">メニュー一覧を見る</a></button>
+    </section>
+    <section class="l_contact c_contact" id="contact">
+        <figure class="c_contact__img"><img src="../img/contact.jpg" alt="メイク道具の写真"></figure>
+        <div class="c_contact__body">
+            <h4 class="c_contact__title">ご予約方法</h4>
+            <dl class="c_contact__info">
+                <dt>TEL 03-1234-5678</dt>
+                <dd>（営業時間：10:00-20:00）</dd>
+            </dl>
+           <button class="e_btn --lg"><a href="#">お問い合わせ</a></button>
+        </div>
+    </section>
+    <section class="l_blog" id="blog">
+        <h3 class="e_title04">
+                <span class='e_title04__blog'><span style="animation-delay: 0s">B</span></span>
+                <span class='e_title04__blog'style="padding-right: 0.8rem;"><span style="animation-delay: 0.2s">l</span></span>
+                <span class='e_title04__blog'><span style="animation-delay: 0.4s">o</span></span>
+                <span class='e_title04__blog'  style="padding-left: 1rem; padding-bottom: 1rem;"><span style="animation-delay: 0.6s">g</span></span>
+                <span class='e_title04__blog'>
+            </h3>
+            <div class="c_grid">
+                <article class="c_grid__item --primary">
+                    <a class="c_grid__link"  href="#">
+                        <figure class="c_grid__img --primary"><img src="img/blog_01.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-03-04">2021.3.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents --primary">
+                                <h5 class="c_grid__title">お得なコスメキャンペーンを実施中！</h5>
+                                <time datetime="2021-03-04">2021.3.4</time>
+                            </div>
+                            <p class="c_grid__text">エステサロンビューティフルデイズの<br>春のコスメキャンペーンがスタートしました。...
+                            </p>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+                <article class="c_grid__item">
+                    <a class="c_grid__link"  href="#">
+                        <figure class="c_grid__img02"><img src="img/blog_02.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-01-04">2021.1.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents">
+                                <h5 class="c_grid__title">新春のご挨拶</h5>
+                            </div>
+                            <p class="c_grid__text"></p>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+                <article class="c_grid__item">
+                    <a class="c_grid__link"  href="#">
+                        <figure class="c_grid__img02"><img src="img/blog_03.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-03-04">2021.3.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents">
+                                <h5 class="c_grid__title">本日のお客様</h5>
+                            </div>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+                <article class="c_grid__item">
+                    <a class="c_grid__link"  href="#">
+                        <figure class="c_grid__img02"><img src="img/blog_04.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-03-04">2021.3.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents">
+                                <h5 class="c_grid__title">美容に良い食べ物のご紹介！</h5>
+                            </div>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+                <article class="c_grid__item">
+                    <a class="c_grid__link"  href="#">
+                        <figure class="c_grid__img02"><img src="img/blog_05.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-03-04">2021.3.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents">
+                                <h5 class="c_grid__title">お得なコスメキャンペーンを実施中！</h5>
+                                <time datetime="2021-03-04">2021.3.4</time>
+                            </div>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+                <article class="c_grid__item">
+                    <a class="c_grid__link"  href="#">
+                        <figure class="c_grid__img02"><img src="img/blog_06.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-03-04">2021.3.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents">
+                                <h5 class="c_grid__title">ブログはじめました</h5>
+                            </div>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+                <article class="c_grid__item">
+                    <a class="c_grid__link" href="#">
+                        <figure class="c_grid__img02"><img src="img/blog_07.jpg" alt=""></figure>
+                        <time class="c_grid__date" datetime="2021-03-04">2021.3.4</time>
+                        <div class="c_grid__inner">
+                            <div class="c_grid__contents">
+                                <h5 class="c_grid__title">夏のイチオシ新商品！</h5>
+                                <time datetime="2021-07-04">2021.7.4</time>
+                            </div>
+                            <button class="c_grid__btn">
+                                <span href="#">Read More</span>
+                            </button>
+                        </div>
+                    </a>
+                </article>
+            </div>
+    </section>
+</main>
+<!-- END Main Area -->
+
+<!-- START Footer Area -->
+<footer class="l_footer">
+    <button class="c_pageTop show" id="pageTop">
+        <a href="#">
+            <span class="c_pageTop__line"></span>
+        </a>
+    </button>
+    <div class="c_footer">
+        <dl class="c_footer__title">
+            <dt>癒しのエステサロン</dt>
+            <dd>Beautiful Days</dd>
+        </dl>
+        <nav>
+            <ul class="c_footer__menu">
+                <li><a href="#">Top</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="menu">Menu</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="blog">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <small class="l_footer__copyRight">© Beautiful days</small>
+</footer>  
+<!-- END Footer Area -->
+
+<!-- Import JS -->
+<script src="./js/common.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/swiper.js"></script>
+</body>
+</html>
